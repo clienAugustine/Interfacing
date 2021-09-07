@@ -30,7 +30,7 @@ namespace Desktop511
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.groupBox_LED = new System.Windows.Forms.GroupBox();
+            this.group12CA = new System.Windows.Forms.GroupBox();
             this.Btn_Led8 = new System.Windows.Forms.Button();
             this.Btn_Led7 = new System.Windows.Forms.Button();
             this.Btn_Led6 = new System.Windows.Forms.Button();
@@ -39,48 +39,48 @@ namespace Desktop511
             this.Btn_Led3 = new System.Windows.Forms.Button();
             this.Btn_Led2 = new System.Windows.Forms.Button();
             this.Btn_Led1 = new System.Windows.Forms.Button();
-            this.groupBox_otherFunctions = new System.Windows.Forms.GroupBox();
+            this.group12CB = new System.Windows.Forms.GroupBox();
             this.Btn_motorCntrClkwise = new System.Windows.Forms.Button();
             this.Btn_motorClkwise = new System.Windows.Forms.Button();
             this.Btn_buzz = new System.Windows.Forms.Button();
             this.Btn_counterDown = new System.Windows.Forms.Button();
             this.Btn_counterUp = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Intitialize_GrpBx = new System.Windows.Forms.GroupBox();
+            this.groupIntitialize = new System.Windows.Forms.GroupBox();
             this.Btn_Connect = new System.Windows.Forms.Button();
             this.Btn_Disconnect = new System.Windows.Forms.Button();
             this.txtBx_Ports = new System.Windows.Forms.TextBox();
             this.Btn_LoadPorts = new System.Windows.Forms.Button();
             this.comboBox_connection = new System.Windows.Forms.ComboBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox_LED.SuspendLayout();
-            this.groupBox_otherFunctions.SuspendLayout();
-            this.Intitialize_GrpBx.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.group511Control = new System.Windows.Forms.GroupBox();
+            this.btn_DispGreen = new System.Windows.Forms.Button();
+            this.btn_DispBlue = new System.Windows.Forms.Button();
+            this.btn_DispRed = new System.Windows.Forms.Button();
+            this.group12CA.SuspendLayout();
+            this.group12CB.SuspendLayout();
+            this.groupIntitialize.SuspendLayout();
+            this.group511Control.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox_LED
+            // group12CA
             // 
-            this.groupBox_LED.Controls.Add(this.Btn_Led8);
-            this.groupBox_LED.Controls.Add(this.Btn_Led7);
-            this.groupBox_LED.Controls.Add(this.Btn_Led6);
-            this.groupBox_LED.Controls.Add(this.Btn_Led5);
-            this.groupBox_LED.Controls.Add(this.Btn_Led4);
-            this.groupBox_LED.Controls.Add(this.Btn_Led3);
-            this.groupBox_LED.Controls.Add(this.Btn_Led2);
-            this.groupBox_LED.Controls.Add(this.Btn_Led1);
-            this.groupBox_LED.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox_LED.Location = new System.Drawing.Point(385, 11);
-            this.groupBox_LED.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox_LED.Name = "groupBox_LED";
-            this.groupBox_LED.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox_LED.Size = new System.Drawing.Size(174, 413);
-            this.groupBox_LED.TabIndex = 0;
-            this.groupBox_LED.TabStop = false;
-            this.groupBox_LED.Text = "12A";
+            this.group12CA.Controls.Add(this.Btn_Led8);
+            this.group12CA.Controls.Add(this.Btn_Led7);
+            this.group12CA.Controls.Add(this.Btn_Led6);
+            this.group12CA.Controls.Add(this.Btn_Led5);
+            this.group12CA.Controls.Add(this.Btn_Led4);
+            this.group12CA.Controls.Add(this.Btn_Led3);
+            this.group12CA.Controls.Add(this.Btn_Led2);
+            this.group12CA.Controls.Add(this.Btn_Led1);
+            this.group12CA.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.group12CA.Location = new System.Drawing.Point(385, 11);
+            this.group12CA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.group12CA.Name = "group12CA";
+            this.group12CA.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.group12CA.Size = new System.Drawing.Size(174, 413);
+            this.group12CA.TabIndex = 0;
+            this.group12CA.TabStop = false;
+            this.group12CA.Text = "12C A";
             // 
             // Btn_Led8
             // 
@@ -170,22 +170,22 @@ namespace Desktop511
             this.Btn_Led1.TabIndex = 0;
             this.Btn_Led1.UseVisualStyleBackColor = true;
             // 
-            // groupBox_otherFunctions
+            // group12CB
             // 
-            this.groupBox_otherFunctions.Controls.Add(this.Btn_motorCntrClkwise);
-            this.groupBox_otherFunctions.Controls.Add(this.Btn_motorClkwise);
-            this.groupBox_otherFunctions.Controls.Add(this.Btn_buzz);
-            this.groupBox_otherFunctions.Controls.Add(this.Btn_counterDown);
-            this.groupBox_otherFunctions.Controls.Add(this.Btn_counterUp);
-            this.groupBox_otherFunctions.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox_otherFunctions.Location = new System.Drawing.Point(579, 11);
-            this.groupBox_otherFunctions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox_otherFunctions.Name = "groupBox_otherFunctions";
-            this.groupBox_otherFunctions.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox_otherFunctions.Size = new System.Drawing.Size(186, 413);
-            this.groupBox_otherFunctions.TabIndex = 1;
-            this.groupBox_otherFunctions.TabStop = false;
-            this.groupBox_otherFunctions.Text = "12B";
+            this.group12CB.Controls.Add(this.Btn_motorCntrClkwise);
+            this.group12CB.Controls.Add(this.Btn_motorClkwise);
+            this.group12CB.Controls.Add(this.Btn_buzz);
+            this.group12CB.Controls.Add(this.Btn_counterDown);
+            this.group12CB.Controls.Add(this.Btn_counterUp);
+            this.group12CB.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.group12CB.Location = new System.Drawing.Point(579, 11);
+            this.group12CB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.group12CB.Name = "group12CB";
+            this.group12CB.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.group12CB.Size = new System.Drawing.Size(186, 413);
+            this.group12CB.TabIndex = 1;
+            this.group12CB.TabStop = false;
+            this.group12CB.Text = "12C B";
             // 
             // Btn_motorCntrClkwise
             // 
@@ -252,23 +252,23 @@ namespace Desktop511
             this.label1.TabIndex = 2;
             this.label1.Text = "Select Type of Connection";
             // 
-            // Intitialize_GrpBx
+            // groupIntitialize
             // 
-            this.Intitialize_GrpBx.Controls.Add(this.Btn_Connect);
-            this.Intitialize_GrpBx.Controls.Add(this.Btn_Disconnect);
-            this.Intitialize_GrpBx.Controls.Add(this.txtBx_Ports);
-            this.Intitialize_GrpBx.Controls.Add(this.Btn_LoadPorts);
-            this.Intitialize_GrpBx.Controls.Add(this.comboBox_connection);
-            this.Intitialize_GrpBx.Controls.Add(this.label1);
-            this.Intitialize_GrpBx.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Intitialize_GrpBx.Location = new System.Drawing.Point(12, 11);
-            this.Intitialize_GrpBx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Intitialize_GrpBx.Name = "Intitialize_GrpBx";
-            this.Intitialize_GrpBx.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Intitialize_GrpBx.Size = new System.Drawing.Size(352, 260);
-            this.Intitialize_GrpBx.TabIndex = 2;
-            this.Intitialize_GrpBx.TabStop = false;
-            this.Intitialize_GrpBx.Text = "Initialize";
+            this.groupIntitialize.Controls.Add(this.Btn_Connect);
+            this.groupIntitialize.Controls.Add(this.Btn_Disconnect);
+            this.groupIntitialize.Controls.Add(this.txtBx_Ports);
+            this.groupIntitialize.Controls.Add(this.Btn_LoadPorts);
+            this.groupIntitialize.Controls.Add(this.comboBox_connection);
+            this.groupIntitialize.Controls.Add(this.label1);
+            this.groupIntitialize.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupIntitialize.Location = new System.Drawing.Point(12, 11);
+            this.groupIntitialize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupIntitialize.Name = "groupIntitialize";
+            this.groupIntitialize.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupIntitialize.Size = new System.Drawing.Size(352, 260);
+            this.groupIntitialize.TabIndex = 2;
+            this.groupIntitialize.TabStop = false;
+            this.groupIntitialize.Text = "Initialize";
             // 
             // Btn_Connect
             // 
@@ -281,6 +281,7 @@ namespace Desktop511
             this.Btn_Connect.Size = new System.Drawing.Size(346, 45);
             this.Btn_Connect.TabIndex = 7;
             this.Btn_Connect.UseVisualStyleBackColor = true;
+            this.Btn_Connect.Click += new System.EventHandler(this.Btn_Connect_Click);
             // 
             // Btn_Disconnect
             // 
@@ -323,75 +324,76 @@ namespace Desktop511
             this.comboBox_connection.Size = new System.Drawing.Size(317, 33);
             this.comboBox_connection.TabIndex = 3;
             // 
-            // groupBox4
+            // group511Control
             // 
-            this.groupBox4.Controls.Add(this.groupBox7);
-            this.groupBox4.Controls.Add(this.groupBox6);
-            this.groupBox4.Controls.Add(this.groupBox5);
-            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox4.Location = new System.Drawing.Point(12, 286);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(352, 138);
-            this.groupBox4.TabIndex = 3;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "511CONTROL";
+            this.group511Control.Controls.Add(this.btn_DispRed);
+            this.group511Control.Controls.Add(this.btn_DispBlue);
+            this.group511Control.Controls.Add(this.btn_DispGreen);
+            this.group511Control.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.group511Control.Location = new System.Drawing.Point(12, 286);
+            this.group511Control.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.group511Control.Name = "group511Control";
+            this.group511Control.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.group511Control.Size = new System.Drawing.Size(352, 138);
+            this.group511Control.TabIndex = 3;
+            this.group511Control.TabStop = false;
+            this.group511Control.Text = "511CONTROL";
             // 
-            // groupBox7
+            // btn_DispGreen
             // 
-            this.groupBox7.Location = new System.Drawing.Point(232, 20);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox7.Size = new System.Drawing.Size(100, 100);
-            this.groupBox7.TabIndex = 6;
-            this.groupBox7.TabStop = false;
+            this.btn_DispGreen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_DispGreen.Location = new System.Drawing.Point(20, 29);
+            this.btn_DispGreen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_DispGreen.Name = "btn_DispGreen";
+            this.btn_DispGreen.Size = new System.Drawing.Size(100, 100);
+            this.btn_DispGreen.TabIndex = 8;
+            this.btn_DispGreen.UseVisualStyleBackColor = true;
             // 
-            // groupBox6
+            // btn_DispBlue
             // 
-            this.groupBox6.Location = new System.Drawing.Point(126, 20);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox6.Size = new System.Drawing.Size(100, 100);
-            this.groupBox6.TabIndex = 5;
-            this.groupBox6.TabStop = false;
+            this.btn_DispBlue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_DispBlue.Location = new System.Drawing.Point(126, 29);
+            this.btn_DispBlue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_DispBlue.Name = "btn_DispBlue";
+            this.btn_DispBlue.Size = new System.Drawing.Size(100, 100);
+            this.btn_DispBlue.TabIndex = 9;
+            this.btn_DispBlue.UseVisualStyleBackColor = true;
             // 
-            // groupBox5
+            // btn_DispRed
             // 
-            this.groupBox5.Location = new System.Drawing.Point(20, 20);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Size = new System.Drawing.Size(100, 100);
-            this.groupBox5.TabIndex = 4;
-            this.groupBox5.TabStop = false;
+            this.btn_DispRed.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_DispRed.Location = new System.Drawing.Point(232, 29);
+            this.btn_DispRed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_DispRed.Name = "btn_DispRed";
+            this.btn_DispRed.Size = new System.Drawing.Size(100, 100);
+            this.btn_DispRed.TabIndex = 10;
+            this.btn_DispRed.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(777, 437);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.Intitialize_GrpBx);
-            this.Controls.Add(this.groupBox_otherFunctions);
-            this.Controls.Add(this.groupBox_LED);
+            this.Controls.Add(this.group511Control);
+            this.Controls.Add(this.groupIntitialize);
+            this.Controls.Add(this.group12CB);
+            this.Controls.Add(this.group12CA);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Project 511 DeskApp";
-            this.groupBox_LED.ResumeLayout(false);
-            this.groupBox_otherFunctions.ResumeLayout(false);
-            this.Intitialize_GrpBx.ResumeLayout(false);
-            this.Intitialize_GrpBx.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.group12CA.ResumeLayout(false);
+            this.group12CB.ResumeLayout(false);
+            this.groupIntitialize.ResumeLayout(false);
+            this.groupIntitialize.PerformLayout();
+            this.group511Control.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox_LED;
+        private System.Windows.Forms.GroupBox group12CA;
         private System.Windows.Forms.Button Btn_Led8;
         private System.Windows.Forms.Button Btn_Led7;
         private System.Windows.Forms.Button Btn_Led6;
@@ -400,9 +402,9 @@ namespace Desktop511
         private System.Windows.Forms.Button Btn_Led3;
         private System.Windows.Forms.Button Btn_Led2;
         private System.Windows.Forms.Button Btn_Led1;
-        private System.Windows.Forms.GroupBox groupBox_otherFunctions;
+        private System.Windows.Forms.GroupBox group12CB;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox Intitialize_GrpBx;
+        private System.Windows.Forms.GroupBox groupIntitialize;
         private System.Windows.Forms.ComboBox comboBox_connection;
         private System.Windows.Forms.TextBox txtBx_Ports;
         private System.Windows.Forms.Button Btn_LoadPorts;
@@ -413,10 +415,10 @@ namespace Desktop511
         private System.Windows.Forms.Button Btn_motorCntrClkwise;
         private System.Windows.Forms.Button Btn_Connect;
         private System.Windows.Forms.Button Btn_Disconnect;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox group511Control;
+        private System.Windows.Forms.Button btn_DispRed;
+        private System.Windows.Forms.Button btn_DispBlue;
+        private System.Windows.Forms.Button btn_DispGreen;
     }
 }
 
