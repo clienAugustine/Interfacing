@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj": {}
+    "D:\\OneDrive - usjr.edu.ph\\GitHub\\Interfacing\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj": {
+    "D:\\OneDrive - usjr.edu.ph\\GitHub\\Interfacing\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj",
+        "projectUniqueName": "D:\\OneDrive - usjr.edu.ph\\GitHub\\Interfacing\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj",
         "projectName": "Desktop511",
-        "projectPath": "C:\\Users\\User\\Desktop\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Interfacing\\Desktop511\\Desktop511\\obj\\",
+        "projectPath": "D:\\OneDrive - usjr.edu.ph\\GitHub\\Interfacing\\Interfacing\\Desktop511\\Desktop511\\Desktop511.csproj",
+        "packagesPath": "C:\\Users\\Lejane Mariz\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive - usjr.edu.ph\\GitHub\\Interfacing\\Interfacing\\Desktop511\\Desktop511\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lejane Mariz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

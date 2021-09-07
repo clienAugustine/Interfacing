@@ -17,24 +17,5 @@ namespace Desktop511
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

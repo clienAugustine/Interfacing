@@ -29,322 +29,361 @@ namespace Desktop511
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.groupBox_LED = new System.Windows.Forms.GroupBox();
+            this.Btn_Led8 = new System.Windows.Forms.Button();
+            this.Btn_Led7 = new System.Windows.Forms.Button();
+            this.Btn_Led6 = new System.Windows.Forms.Button();
+            this.Btn_Led5 = new System.Windows.Forms.Button();
+            this.Btn_Led4 = new System.Windows.Forms.Button();
+            this.Btn_Led3 = new System.Windows.Forms.Button();
+            this.Btn_Led2 = new System.Windows.Forms.Button();
+            this.Btn_Led1 = new System.Windows.Forms.Button();
+            this.groupBox_otherFunctions = new System.Windows.Forms.GroupBox();
+            this.Btn_motorCntrClkwise = new System.Windows.Forms.Button();
+            this.Btn_motorClkwise = new System.Windows.Forms.Button();
+            this.Btn_buzz = new System.Windows.Forms.Button();
+            this.Btn_counterDown = new System.Windows.Forms.Button();
+            this.Btn_counterUp = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.Intitialize_GrpBx = new System.Windows.Forms.GroupBox();
+            this.Btn_Connect = new System.Windows.Forms.Button();
+            this.Btn_Disconnect = new System.Windows.Forms.Button();
+            this.txtBx_Ports = new System.Windows.Forms.TextBox();
+            this.Btn_LoadPorts = new System.Windows.Forms.Button();
+            this.comboBox_connection = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox_LED.SuspendLayout();
+            this.groupBox_otherFunctions.SuspendLayout();
+            this.Intitialize_GrpBx.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // groupBox_LED
             // 
-            this.groupBox1.Controls.Add(this.button8);
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(30, 35);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(199, 471);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox_LED.Controls.Add(this.Btn_Led8);
+            this.groupBox_LED.Controls.Add(this.Btn_Led7);
+            this.groupBox_LED.Controls.Add(this.Btn_Led6);
+            this.groupBox_LED.Controls.Add(this.Btn_Led5);
+            this.groupBox_LED.Controls.Add(this.Btn_Led4);
+            this.groupBox_LED.Controls.Add(this.Btn_Led3);
+            this.groupBox_LED.Controls.Add(this.Btn_Led2);
+            this.groupBox_LED.Controls.Add(this.Btn_Led1);
+            this.groupBox_LED.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupBox_LED.Location = new System.Drawing.Point(385, 11);
+            this.groupBox_LED.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox_LED.Name = "groupBox_LED";
+            this.groupBox_LED.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox_LED.Size = new System.Drawing.Size(174, 413);
+            this.groupBox_LED.TabIndex = 0;
+            this.groupBox_LED.TabStop = false;
+            this.groupBox_LED.Text = "12A";
             // 
-            // groupBox2
+            // Btn_Led8
             // 
-            this.groupBox2.Controls.Add(this.button14);
-            this.groupBox2.Controls.Add(this.button13);
-            this.groupBox2.Controls.Add(this.button12);
-            this.groupBox2.Controls.Add(this.button11);
-            this.groupBox2.Controls.Add(this.button10);
-            this.groupBox2.Location = new System.Drawing.Point(255, 35);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(212, 471);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.Btn_Led8.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led8.Location = new System.Drawing.Point(5, 350);
+            this.Btn_Led8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led8.Name = "Btn_Led8";
+            this.Btn_Led8.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led8.TabIndex = 7;
+            this.Btn_Led8.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Btn_Led7
             // 
-            this.button1.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(6, 49);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 40);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            this.Btn_Led7.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led7.Location = new System.Drawing.Point(6, 306);
+            this.Btn_Led7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led7.Name = "Btn_Led7";
+            this.Btn_Led7.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led7.TabIndex = 6;
+            this.Btn_Led7.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Btn_Led6
             // 
-            this.button2.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Location = new System.Drawing.Point(6, 95);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(187, 40);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            this.Btn_Led6.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led6.Location = new System.Drawing.Point(6, 262);
+            this.Btn_Led6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led6.Name = "Btn_Led6";
+            this.Btn_Led6.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led6.TabIndex = 5;
+            this.Btn_Led6.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Btn_Led5
             // 
-            this.button3.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Location = new System.Drawing.Point(6, 141);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(187, 40);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
+            this.Btn_Led5.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led5.Location = new System.Drawing.Point(6, 218);
+            this.Btn_Led5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led5.Name = "Btn_Led5";
+            this.Btn_Led5.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led5.TabIndex = 4;
+            this.Btn_Led5.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Btn_Led4
             // 
-            this.button4.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Location = new System.Drawing.Point(6, 187);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(187, 40);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
+            this.Btn_Led4.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led4.Location = new System.Drawing.Point(6, 174);
+            this.Btn_Led4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led4.Name = "Btn_Led4";
+            this.Btn_Led4.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led4.TabIndex = 3;
+            this.Btn_Led4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Btn_Led3
             // 
-            this.button5.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.Location = new System.Drawing.Point(6, 233);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(187, 40);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = true;
+            this.Btn_Led3.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led3.Location = new System.Drawing.Point(5, 130);
+            this.Btn_Led3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led3.Name = "Btn_Led3";
+            this.Btn_Led3.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led3.TabIndex = 2;
+            this.Btn_Led3.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // Btn_Led2
             // 
-            this.button6.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.Location = new System.Drawing.Point(6, 279);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(187, 40);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.Btn_Led2.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led2.Location = new System.Drawing.Point(5, 86);
+            this.Btn_Led2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led2.Name = "Btn_Led2";
+            this.Btn_Led2.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led2.TabIndex = 1;
+            this.Btn_Led2.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // Btn_Led1
             // 
-            this.button7.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.Location = new System.Drawing.Point(6, 325);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(187, 40);
-            this.button7.TabIndex = 6;
-            this.button7.UseVisualStyleBackColor = true;
+            this.Btn_Led1.BackgroundImage = global::Desktop511.Properties.Resources.led;
+            this.Btn_Led1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Led1.Location = new System.Drawing.Point(5, 42);
+            this.Btn_Led1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Led1.Name = "Btn_Led1";
+            this.Btn_Led1.Size = new System.Drawing.Size(164, 40);
+            this.Btn_Led1.TabIndex = 0;
+            this.Btn_Led1.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // groupBox_otherFunctions
             // 
-            this.button8.BackgroundImage = global::Desktop511.Properties.Resources.led;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button8.Location = new System.Drawing.Point(6, 371);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(187, 40);
-            this.button8.TabIndex = 7;
-            this.button8.UseVisualStyleBackColor = true;
+            this.groupBox_otherFunctions.Controls.Add(this.Btn_motorCntrClkwise);
+            this.groupBox_otherFunctions.Controls.Add(this.Btn_motorClkwise);
+            this.groupBox_otherFunctions.Controls.Add(this.Btn_buzz);
+            this.groupBox_otherFunctions.Controls.Add(this.Btn_counterDown);
+            this.groupBox_otherFunctions.Controls.Add(this.Btn_counterUp);
+            this.groupBox_otherFunctions.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupBox_otherFunctions.Location = new System.Drawing.Point(579, 11);
+            this.groupBox_otherFunctions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox_otherFunctions.Name = "groupBox_otherFunctions";
+            this.groupBox_otherFunctions.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox_otherFunctions.Size = new System.Drawing.Size(186, 413);
+            this.groupBox_otherFunctions.TabIndex = 1;
+            this.groupBox_otherFunctions.TabStop = false;
+            this.groupBox_otherFunctions.Text = "12B";
+            // 
+            // Btn_motorCntrClkwise
+            // 
+            this.Btn_motorCntrClkwise.BackgroundImage = global::Desktop511.Properties.Resources.counter_clockwise;
+            this.Btn_motorCntrClkwise.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_motorCntrClkwise.Location = new System.Drawing.Point(20, 307);
+            this.Btn_motorCntrClkwise.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_motorCntrClkwise.Name = "Btn_motorCntrClkwise";
+            this.Btn_motorCntrClkwise.Size = new System.Drawing.Size(150, 55);
+            this.Btn_motorCntrClkwise.TabIndex = 3;
+            this.Btn_motorCntrClkwise.UseVisualStyleBackColor = true;
+            // 
+            // Btn_motorClkwise
+            // 
+            this.Btn_motorClkwise.BackgroundImage = global::Desktop511.Properties.Resources.clockwise;
+            this.Btn_motorClkwise.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_motorClkwise.Location = new System.Drawing.Point(20, 247);
+            this.Btn_motorClkwise.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_motorClkwise.Name = "Btn_motorClkwise";
+            this.Btn_motorClkwise.Size = new System.Drawing.Size(150, 55);
+            this.Btn_motorClkwise.TabIndex = 3;
+            this.Btn_motorClkwise.UseVisualStyleBackColor = true;
+            // 
+            // Btn_buzz
+            // 
+            this.Btn_buzz.BackgroundImage = global::Desktop511.Properties.Resources.buzzer;
+            this.Btn_buzz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_buzz.Location = new System.Drawing.Point(20, 187);
+            this.Btn_buzz.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_buzz.Name = "Btn_buzz";
+            this.Btn_buzz.Size = new System.Drawing.Size(150, 55);
+            this.Btn_buzz.TabIndex = 2;
+            this.Btn_buzz.UseVisualStyleBackColor = true;
+            // 
+            // Btn_counterDown
+            // 
+            this.Btn_counterDown.BackgroundImage = global::Desktop511.Properties.Resources.counter_down;
+            this.Btn_counterDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_counterDown.Location = new System.Drawing.Point(20, 127);
+            this.Btn_counterDown.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_counterDown.Name = "Btn_counterDown";
+            this.Btn_counterDown.Size = new System.Drawing.Size(150, 55);
+            this.Btn_counterDown.TabIndex = 1;
+            this.Btn_counterDown.UseVisualStyleBackColor = true;
+            // 
+            // Btn_counterUp
+            // 
+            this.Btn_counterUp.BackgroundImage = global::Desktop511.Properties.Resources.counter_up;
+            this.Btn_counterUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_counterUp.Location = new System.Drawing.Point(20, 66);
+            this.Btn_counterUp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_counterUp.Name = "Btn_counterUp";
+            this.Btn_counterUp.Size = new System.Drawing.Size(150, 55);
+            this.Btn_counterUp.TabIndex = 0;
+            this.Btn_counterUp.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 37);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(20, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 20);
+            this.label1.Size = new System.Drawing.Size(166, 19);
             this.label1.TabIndex = 2;
             this.label1.Text = "Select Type of Connection";
             // 
-            // groupBox3
+            // Intitialize_GrpBx
             // 
-            this.groupBox3.Controls.Add(this.button16);
-            this.groupBox3.Controls.Add(this.button15);
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.button9);
-            this.groupBox3.Controls.Add(this.comboBox1);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Location = new System.Drawing.Point(517, 35);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(482, 237);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.Intitialize_GrpBx.Controls.Add(this.Btn_Connect);
+            this.Intitialize_GrpBx.Controls.Add(this.Btn_Disconnect);
+            this.Intitialize_GrpBx.Controls.Add(this.txtBx_Ports);
+            this.Intitialize_GrpBx.Controls.Add(this.Btn_LoadPorts);
+            this.Intitialize_GrpBx.Controls.Add(this.comboBox_connection);
+            this.Intitialize_GrpBx.Controls.Add(this.label1);
+            this.Intitialize_GrpBx.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Intitialize_GrpBx.Location = new System.Drawing.Point(12, 11);
+            this.Intitialize_GrpBx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Intitialize_GrpBx.Name = "Intitialize_GrpBx";
+            this.Intitialize_GrpBx.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Intitialize_GrpBx.Size = new System.Drawing.Size(352, 260);
+            this.Intitialize_GrpBx.TabIndex = 2;
+            this.Intitialize_GrpBx.TabStop = false;
+            this.Intitialize_GrpBx.Text = "Initialize";
             // 
-            // comboBox1
+            // Btn_Connect
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(23, 63);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(181, 28);
-            this.comboBox1.TabIndex = 3;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.Btn_Connect.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_Connect.BackgroundImage")));
+            this.Btn_Connect.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Connect.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Btn_Connect.Location = new System.Drawing.Point(3, 168);
+            this.Btn_Connect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Connect.Name = "Btn_Connect";
+            this.Btn_Connect.Size = new System.Drawing.Size(346, 45);
+            this.Btn_Connect.TabIndex = 7;
+            this.Btn_Connect.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // Btn_Disconnect
             // 
-            this.button9.Location = new System.Drawing.Point(251, 61);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(94, 29);
-            this.button9.TabIndex = 4;
-            this.button9.Text = "Load Ports";
-            this.button9.UseVisualStyleBackColor = true;
+            this.Btn_Disconnect.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_Disconnect.BackgroundImage")));
+            this.Btn_Disconnect.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn_Disconnect.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Btn_Disconnect.Location = new System.Drawing.Point(3, 213);
+            this.Btn_Disconnect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Disconnect.Name = "Btn_Disconnect";
+            this.Btn_Disconnect.Size = new System.Drawing.Size(346, 45);
+            this.Btn_Disconnect.TabIndex = 6;
+            this.Btn_Disconnect.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtBx_Ports
             // 
-            this.textBox1.Location = new System.Drawing.Point(351, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 5;
+            this.txtBx_Ports.Location = new System.Drawing.Point(156, 109);
+            this.txtBx_Ports.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBx_Ports.Multiline = true;
+            this.txtBx_Ports.Name = "txtBx_Ports";
+            this.txtBx_Ports.Size = new System.Drawing.Size(170, 38);
+            this.txtBx_Ports.TabIndex = 5;
             // 
-            // button10
+            // Btn_LoadPorts
             // 
-            this.button10.BackgroundImage = global::Desktop511.Properties.Resources.counter_up;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button10.Location = new System.Drawing.Point(25, 49);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(172, 63);
-            this.button10.TabIndex = 0;
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.Btn_LoadPorts.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Btn_LoadPorts.Location = new System.Drawing.Point(31, 109);
+            this.Btn_LoadPorts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_LoadPorts.Name = "Btn_LoadPorts";
+            this.Btn_LoadPorts.Size = new System.Drawing.Size(108, 38);
+            this.Btn_LoadPorts.TabIndex = 4;
+            this.Btn_LoadPorts.Text = "Load Ports";
+            this.Btn_LoadPorts.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // comboBox_connection
             // 
-            this.button11.BackgroundImage = global::Desktop511.Properties.Resources.counter_down;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button11.Location = new System.Drawing.Point(25, 130);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(172, 63);
-            this.button11.TabIndex = 1;
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button12
-            // 
-            this.button12.BackgroundImage = global::Desktop511.Properties.Resources.buzzer;
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button12.Location = new System.Drawing.Point(25, 210);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(172, 63);
-            this.button12.TabIndex = 2;
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.BackgroundImage = global::Desktop511.Properties.Resources.clockwise;
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button13.Location = new System.Drawing.Point(25, 291);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(172, 63);
-            this.button13.TabIndex = 3;
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.BackgroundImage = global::Desktop511.Properties.Resources.counter_clockwise;
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button14.Location = new System.Drawing.Point(25, 371);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(172, 63);
-            this.button14.TabIndex = 3;
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.BackgroundImage = global::Desktop511.Properties.Resources.connect;
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button15.Location = new System.Drawing.Point(49, 130);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(172, 86);
-            this.button15.TabIndex = 6;
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.BackgroundImage = global::Desktop511.Properties.Resources.disconnect;
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button16.Location = new System.Drawing.Point(261, 130);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(172, 86);
-            this.button16.TabIndex = 7;
-            this.button16.UseVisualStyleBackColor = true;
+            this.comboBox_connection.FormattingEnabled = true;
+            this.comboBox_connection.Location = new System.Drawing.Point(20, 71);
+            this.comboBox_connection.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox_connection.Name = "comboBox_connection";
+            this.comboBox_connection.Size = new System.Drawing.Size(317, 33);
+            this.comboBox_connection.TabIndex = 3;
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.groupBox7);
             this.groupBox4.Controls.Add(this.groupBox6);
             this.groupBox4.Controls.Add(this.groupBox5);
-            this.groupBox4.Location = new System.Drawing.Point(517, 295);
+            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupBox4.Location = new System.Drawing.Point(12, 286);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(482, 211);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox4.Size = new System.Drawing.Size(352, 138);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "511CONTROL";
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Location = new System.Drawing.Point(23, 42);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(137, 143);
-            this.groupBox5.TabIndex = 4;
-            this.groupBox5.TabStop = false;
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Location = new System.Drawing.Point(180, 42);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(137, 143);
-            this.groupBox6.TabIndex = 5;
-            this.groupBox6.TabStop = false;
-            // 
             // groupBox7
             // 
-            this.groupBox7.Location = new System.Drawing.Point(323, 42);
+            this.groupBox7.Location = new System.Drawing.Point(232, 20);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(137, 143);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox7.Size = new System.Drawing.Size(100, 100);
             this.groupBox7.TabIndex = 6;
             this.groupBox7.TabStop = false;
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Location = new System.Drawing.Point(126, 20);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox6.Size = new System.Drawing.Size(100, 100);
+            this.groupBox6.TabIndex = 5;
+            this.groupBox6.TabStop = false;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Location = new System.Drawing.Point(20, 20);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox5.Size = new System.Drawing.Size(100, 100);
+            this.groupBox5.TabIndex = 4;
+            this.groupBox5.TabStop = false;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1031, 567);
+            this.ClientSize = new System.Drawing.Size(777, 437);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.Intitialize_GrpBx);
+            this.Controls.Add(this.groupBox_otherFunctions);
+            this.Controls.Add(this.groupBox_LED);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.Text = "Project 511 DeskApp";
+            this.groupBox_LED.ResumeLayout(false);
+            this.groupBox_otherFunctions.ResumeLayout(false);
+            this.Intitialize_GrpBx.ResumeLayout(false);
+            this.Intitialize_GrpBx.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -352,28 +391,28 @@ namespace Desktop511
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox_LED;
+        private System.Windows.Forms.Button Btn_Led8;
+        private System.Windows.Forms.Button Btn_Led7;
+        private System.Windows.Forms.Button Btn_Led6;
+        private System.Windows.Forms.Button Btn_Led5;
+        private System.Windows.Forms.Button Btn_Led4;
+        private System.Windows.Forms.Button Btn_Led3;
+        private System.Windows.Forms.Button Btn_Led2;
+        private System.Windows.Forms.Button Btn_Led1;
+        private System.Windows.Forms.GroupBox groupBox_otherFunctions;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.GroupBox Intitialize_GrpBx;
+        private System.Windows.Forms.ComboBox comboBox_connection;
+        private System.Windows.Forms.TextBox txtBx_Ports;
+        private System.Windows.Forms.Button Btn_LoadPorts;
+        private System.Windows.Forms.Button Btn_motorClkwise;
+        private System.Windows.Forms.Button Btn_buzz;
+        private System.Windows.Forms.Button Btn_counterDown;
+        private System.Windows.Forms.Button Btn_counterUp;
+        private System.Windows.Forms.Button Btn_motorCntrClkwise;
+        private System.Windows.Forms.Button Btn_Connect;
+        private System.Windows.Forms.Button Btn_Disconnect;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.GroupBox groupBox6;
