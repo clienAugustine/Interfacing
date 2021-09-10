@@ -51,11 +51,11 @@ namespace Desktop511
             this.Btn_Disconnect = new System.Windows.Forms.Button();
             this.txtBx_Ports = new System.Windows.Forms.TextBox();
             this.Btn_LoadPorts = new System.Windows.Forms.Button();
-            this.comboBox_connection = new System.Windows.Forms.ComboBox();
+            this.connectionType = new System.Windows.Forms.ComboBox();
             this.group511Control = new System.Windows.Forms.GroupBox();
-            this.btn_DispGreen = new System.Windows.Forms.Button();
-            this.btn_DispBlue = new System.Windows.Forms.Button();
             this.btn_DispRed = new System.Windows.Forms.Button();
+            this.btn_DispBlue = new System.Windows.Forms.Button();
+            this.btn_DispGreen = new System.Windows.Forms.Button();
             this.group12CA.SuspendLayout();
             this.group12CB.SuspendLayout();
             this.groupIntitialize.SuspendLayout();
@@ -258,7 +258,7 @@ namespace Desktop511
             this.groupIntitialize.Controls.Add(this.Btn_Disconnect);
             this.groupIntitialize.Controls.Add(this.txtBx_Ports);
             this.groupIntitialize.Controls.Add(this.Btn_LoadPorts);
-            this.groupIntitialize.Controls.Add(this.comboBox_connection);
+            this.groupIntitialize.Controls.Add(this.connectionType);
             this.groupIntitialize.Controls.Add(this.label1);
             this.groupIntitialize.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupIntitialize.Location = new System.Drawing.Point(12, 11);
@@ -314,15 +314,17 @@ namespace Desktop511
             this.Btn_LoadPorts.TabIndex = 4;
             this.Btn_LoadPorts.Text = "Load Ports";
             this.Btn_LoadPorts.UseVisualStyleBackColor = true;
+            this.Btn_LoadPorts.Click += new System.EventHandler(this.Btn_LoadPorts_Click);
             // 
-            // comboBox_connection
+            // connectionType
             // 
-            this.comboBox_connection.FormattingEnabled = true;
-            this.comboBox_connection.Location = new System.Drawing.Point(20, 71);
-            this.comboBox_connection.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox_connection.Name = "comboBox_connection";
-            this.comboBox_connection.Size = new System.Drawing.Size(317, 33);
-            this.comboBox_connection.TabIndex = 3;
+            this.connectionType.FormattingEnabled = true;
+            this.connectionType.Location = new System.Drawing.Point(20, 71);
+            this.connectionType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.connectionType.Name = "connectionType";
+            this.connectionType.Size = new System.Drawing.Size(317, 33);
+            this.connectionType.TabIndex = 3;
+            this.connectionType.SelectedIndexChanged += new System.EventHandler(this.comboBox_connection_SelectedIndexChanged);
             // 
             // group511Control
             // 
@@ -339,15 +341,15 @@ namespace Desktop511
             this.group511Control.TabStop = false;
             this.group511Control.Text = "511CONTROL";
             // 
-            // btn_DispGreen
+            // btn_DispRed
             // 
-            this.btn_DispGreen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_DispGreen.Location = new System.Drawing.Point(20, 29);
-            this.btn_DispGreen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_DispGreen.Name = "btn_DispGreen";
-            this.btn_DispGreen.Size = new System.Drawing.Size(100, 100);
-            this.btn_DispGreen.TabIndex = 8;
-            this.btn_DispGreen.UseVisualStyleBackColor = true;
+            this.btn_DispRed.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_DispRed.Location = new System.Drawing.Point(232, 29);
+            this.btn_DispRed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_DispRed.Name = "btn_DispRed";
+            this.btn_DispRed.Size = new System.Drawing.Size(100, 100);
+            this.btn_DispRed.TabIndex = 10;
+            this.btn_DispRed.UseVisualStyleBackColor = true;
             // 
             // btn_DispBlue
             // 
@@ -359,15 +361,15 @@ namespace Desktop511
             this.btn_DispBlue.TabIndex = 9;
             this.btn_DispBlue.UseVisualStyleBackColor = true;
             // 
-            // btn_DispRed
+            // btn_DispGreen
             // 
-            this.btn_DispRed.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_DispRed.Location = new System.Drawing.Point(232, 29);
-            this.btn_DispRed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_DispRed.Name = "btn_DispRed";
-            this.btn_DispRed.Size = new System.Drawing.Size(100, 100);
-            this.btn_DispRed.TabIndex = 10;
-            this.btn_DispRed.UseVisualStyleBackColor = true;
+            this.btn_DispGreen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_DispGreen.Location = new System.Drawing.Point(20, 29);
+            this.btn_DispGreen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_DispGreen.Name = "btn_DispGreen";
+            this.btn_DispGreen.Size = new System.Drawing.Size(100, 100);
+            this.btn_DispGreen.TabIndex = 8;
+            this.btn_DispGreen.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -405,7 +407,7 @@ namespace Desktop511
         private System.Windows.Forms.GroupBox group12CB;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupIntitialize;
-        private System.Windows.Forms.ComboBox comboBox_connection;
+        private System.Windows.Forms.ComboBox connectionType;
         private System.Windows.Forms.TextBox txtBx_Ports;
         private System.Windows.Forms.Button Btn_LoadPorts;
         private System.Windows.Forms.Button Btn_motorClkwise;
